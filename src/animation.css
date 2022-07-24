@@ -1,0 +1,39 @@
+.example-enter {
+  opacity: 0;
+  transform:translateX(1000%);
+}
+.example-enter-active {
+  opacity: 1;
+  transform:translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.example-exit {
+  opacity: 1;
+  transform:translateX(0);
+transition: opacity 300ms, transform 300ms;
+}
+.example-exit-active {
+  opacity: 0;
+  transform:translateX(-100%);
+  transition: opacity 300ms, transform 300ms;
+}
+.previous-enter {
+  opacity: 0;
+  transform:translateX(-1000%);
+transition: opacity 300ms, transform 300ms;
+}
+.previous-enter-active {
+  opacity: 1;
+  transform:translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.previous-exit {
+  opacity: 1;
+  transform:translateX(0);
+transition: opacity 300ms, transform 300ms;
+}
+.previous-exit-active {
+  opacity: 0;
+  transform:translateX(-100%);
+  transition: opacity 300ms, transform 300ms;
+}
